@@ -6,7 +6,7 @@ import LifeCycle from "./LifeCycle"
   constructor(props){
     super(props);
     this.state= {
-      list:[]
+      list:[1,2,3]
     }
     this.handleReceiveKeyWord = this.handleReceiveKeyWord.bind(this); 
     this.handleDeleteItem = this.handleDeleteItem.bind(this);
